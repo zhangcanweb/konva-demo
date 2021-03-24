@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			.container {
+				width: 600px;
+				display: flex;
+				align-items: center;
+			}
+			.left {
+				margin-right: 30px;
+				width: 80%;
+			}
+			.logo {
+				width: 32px;
+				height: 32px;
+				margin-right: 10px;
+			}
+			.top {
+				display: flex;
+				align-items: center;
+				margin-bottom: 30px;
+				width: 100%;
+			}
+			.title {
+				width: calc(100% - 42px);
+			}
+			.title div {
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				overflow: hidden;
+			}
+			.main-title {
+				font-size: 20px;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="left">
+				<div class="top">
+					<img class="logo" src="./src/assets/logo.png" alt="" />
+					<div class="title">
+						<div class="main-title">
+							标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题
+						</div>
+						<div class="child-title">
+							子标题子标题子标题子标题子标题子标题子标题子标题子标题子标题子标题子标题子标题子标题子标题子标题子标题子标题子标题子标题子标题子标题
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+				</div>
+			</div>
+			<div class="right">
+				<a href="">点击进入></a>
+			</div>
+		</div>
+	</body>
+	<script>
+		// function setStyle(element) {
+		// 	element.style.fontWeight = 'bold';
+		// 	element.style.textDecoration = 'none';
+		// 	element.style.color = '#000000';
+		// }
+		// function setStyle(element) {
+		//   let eleStyle = 	element.style
+		//   eleStyle.fontWeight = 'bold';
+		// 	eleStyle.textDecoration = 'none';
+		// 	eleStyle.color = '#000000';
+		// }
+		function setStyle(element) {
+			let objStyle = {
+				fontWeight: 'bold',
+				textDecoration: 'none',
+				color: '#fff',
+			};
+      element.style = {...element.style, ...objStyle}
+      console.log( element.style)
+		}
+		let ele = document.getElementsByClassName('main-title')[0];
+		setStyle(ele);
+	</script>
+</html>

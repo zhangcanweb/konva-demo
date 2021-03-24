@@ -4925,6 +4925,11 @@ jest-worker@^25.4.0:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
+jquery@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.npm.taobao.org/jquery/download/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
+  integrity sha1-xyoJ8Vwb3OFC9J2/EXC9+K2sJHA=
+
 js-message@1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/js-message/-/js-message-1.0.7.tgz#fbddd053c7a47021871bb8b2c95397cc17c20e47"
@@ -5064,6 +5069,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.3"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
+
+konva@^7.2.5:
+  version "7.2.5"
+  resolved "https://registry.npm.taobao.org/konva/download/konva-7.2.5.tgz?cache=0&sync_timestamp=1614791348025&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fkonva%2Fdownload%2Fkonva-7.2.5.tgz#9b4ac3a353e6be66e3e69123bf2a0cbc61efeb26"
+  integrity sha1-m0rDo1Pmvmbj5pEjvyoMvGHv6yY=
 
 launch-editor-middleware@^2.2.1:
   version "2.2.1"
@@ -8127,6 +8137,11 @@ vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
+
+vue-konva@^2.1.7:
+  version "2.1.7"
+  resolved "https://registry.npm.taobao.org/vue-konva/download/vue-konva-2.1.7.tgz#1d94471e0b6a3d4139e118a22b4c907f4a091f9c"
+  integrity sha1-HZRHHgtqPUE54RiiK0yQf0oJH5w=
 
 "vue-loader-v16@npm:vue-loader@^16.1.0":
   version "16.1.2"
